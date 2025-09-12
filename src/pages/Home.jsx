@@ -36,7 +36,7 @@ function Home() {
   console.log(actionData);
   return (
     <>
-      <WhatYou />
+      {/* <WhatYou /> */}
       <Ready />
       {/* <div className="home__box">
         <PremTime />
