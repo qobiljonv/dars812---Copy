@@ -1,0 +1,50 @@
+@import "./css/fonts.css";
+@import "./css/button.css";
+@import "./css/root.css";
+@import "./css/premTime.css";
+@import "./css/header.css";
+@import "./css/whatYou.css";
+@import "./css/footer.css";
+@import "./css/ready.css";
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+body {
+  height: 100%;
+  font-family: var(--font-secondary);
+  font-size: var(--font-size-preset-6);
+  line-height: var(--line-height-loose);
+  background-color: var(--color-neutral-100);
+  font-weight: 500;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.home__box {
+  display: flex;
+  gap: 1.6rem;
+}

@@ -1,0 +1,21 @@
+.footer {
+  width: 100%;
+  max-width: 1232px;
+  padding: 4rem 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer__list {
+  display: flex;
+  align-items: center;
+  gap: 2.4rem;
+}
+
+.footer__icon {
+  width: 22px;
+  height: 22px;
+}

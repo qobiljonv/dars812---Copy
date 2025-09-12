@@ -1,0 +1,29 @@
+.header {
+  width: 100%;
+  max-width: 1360px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__logo {
+  cursor: pointer;
+}
+
+.header__list {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+}
+
+.header__link {
+  font-size: var(--font-size-preset-7);
+  color: var(--color-neutral-900);
+}
+
+.active {
+  border-bottom: 3px solid var(--color-orange-500);
+}
