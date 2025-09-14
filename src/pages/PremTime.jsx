@@ -9,7 +9,7 @@ function PremTime() {
   };
 
   return (
-    <div>
+    <div className="prem__time-box">
       <button onClick={handleToggle} className="prem-time">
         <span>Max Prep Time</span>
         <img src="./images/icon-chevron-down.svg" alt="" />

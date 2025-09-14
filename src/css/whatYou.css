@@ -13,7 +13,8 @@
   font-weight: 800;
   text-align: center;
   line-height: var(--line-height-snug);
-  padding: 4.8rem;
+  padding-bottom: 4.8rem;
+  padding-top: 4.8rem;
 }
 
 .whatYou__list {
@@ -56,4 +57,38 @@
   font-weight: 700;
   line-height: var(--line-height-normal);
   color: var(--color-neutral-900);
+}
+
+.whatYou__text {
+  width: 100%;
+  max-width: 376px;
+}
+
+@media screen and (max-width: 768px) {
+  .whatYou__list {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 3.2rem;
+  }
+
+  .whatYou__title {
+    text-align: start;
+  }
+
+  .whatYou__text {
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .whatYou {
+    padding-left: 1.6rem;
+    padding-right: 1.6rem;
+    padding-bottom: 6.4rem;
+  }
+
+  .whatYou__title {
+    padding-bottom: 3.2rem;
+    font-size: var(--font-size-preset-2-mobile);
+  }
 }

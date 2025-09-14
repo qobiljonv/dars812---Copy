@@ -6,7 +6,7 @@ function Footer() {
         <li className="footer__item">
           <a href="" className="footer__link">
             <img
-              src="./images/icon-instagram.svg"
+              src="/images/icon-instagram.svg"
               alt=""
               className="footer__icon"
             />
@@ -15,7 +15,7 @@ function Footer() {
         <li className="footer__item">
           <a href="" className="footer__link">
             <img
-              src="./images/icon-bluesky.svg"
+              src="/images/icon-bluesky.svg"
               alt=""
               className="footer__icon"
             />
@@ -24,7 +24,7 @@ function Footer() {
         <li className="footer__item">
           <a href="" className="footer__link">
             <img
-              src="./images/icon-tiktok.svg"
+              src="/images/icon-tiktok.svg"
               alt=""
               className="footer__icon"
             />
