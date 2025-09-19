@@ -12,6 +12,7 @@
 @import "./css/exist.css";
 @import "./css/beyond.css";
 @import "./css/recipes.css";
+@import "./css/recipe.css";
 
 *,
 *::before,
@@ -53,4 +54,25 @@ body {
 .home__box {
   display: flex;
   gap: 1.6rem;
+}
+
+.line {
+  opacity: 50%;
+}
+
+.delete-btn {
+  font-family: var(--font-secondary);
+  font-weight: 600;
+  margin-left: 10px;
+  background: var(--color-neutral-900);
+  color: #fff;
+  border: none;
+  padding: 1.3rem 1rem;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.delete-btn:hover {
+  background: var(--color-neutral-600);
 }

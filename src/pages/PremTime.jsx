@@ -19,13 +19,37 @@ function PremTime() {
         <div className="prem__box">
           <ul className="prem__list">
             <li className="prem__item">
-              <button className="prem__text">0 minutes</button>
+              <label className="prem__label">
+                <input
+                  type="radio"
+                  name="cookTime"
+                  value="10"
+                  className="prem__radio"
+                />
+                <span className="prem__text">10 minutes</span>
+              </label>
             </li>
             <li className="prem__item">
-              <button className="prem__text">5 minutes</button>
+              <label className="prem__label">
+                <input
+                  type="radio"
+                  name="cookTime"
+                  value="10"
+                  className="prem__radio"
+                />
+                <span className="prem__text">10 minutes</span>
+              </label>
             </li>
             <li className="prem__item">
-              <button className="prem__text">10 minutes</button>
+              <label className="prem__label">
+                <input
+                  type="radio"
+                  name="cookTime"
+                  value="10"
+                  className="prem__radio"
+                />
+                <span className="prem__text">10 minutes</span>
+              </label>
             </li>
           </ul>
           <button className="prem__btn">Clear</button>

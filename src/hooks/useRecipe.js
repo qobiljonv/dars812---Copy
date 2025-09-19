@@ -1,4 +1,3 @@
-// src/services/recipeService.js
 import { useEffect, useState } from "react";
 
 export function useRecipes() {

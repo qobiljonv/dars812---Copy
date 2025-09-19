@@ -48,13 +48,14 @@
 }
 
 .burger__box {
-  position: fixed;
+  position: absolute;
   top: 70px;
-  left: 21px;
-  width: 94.5%;
+  left: 0;
+  width: 100%;
   border-radius: 8px;
   background-color: var(--color-neutral-0);
   padding: 8px;
+  z-index: 1000;
 }
 
 .burger__list {

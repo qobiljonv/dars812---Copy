@@ -5,8 +5,8 @@
       "title": "Mediterranean Chickpea Salad",
       "slug": "mediterranean-chickpea-salad",
       "image": {
-        "large": "./images/mediterranean-chickpea-salad-large.webp",
-        "small": "./images/mediterranean-chickpea-salad-small.webp"
+        "large": "/images/mediterranean-chickpea-salad-large.webp",
+        "small": "/images/mediterranean-chickpea-salad-small.webp"
       },
       "overview": "A refreshing, protein-packed salad tossed in a lemon-olive oil dressing.",
       "servings": 2,
@@ -35,8 +35,8 @@
       "title": "Avocado & Tomato Wholegrain Toast",
       "slug": "avocado-tomato-wholegrain-toast",
       "image": {
-        "large": "./images/avocado-tomato-wholegrain-toast-large.webp",
-        "small": "./images/avocado-tomato-wholegrain-toast-small.webp"
+        "large": "/images/avocado-tomato-wholegrain-toast-large.webp",
+        "small": "/images/avocado-tomato-wholegrain-toast-small.webp"
       },
       "overview": "Creamy avocado spread over toasted wholegrain bread, topped with juicy tomatoes.",
       "servings": 1,
@@ -62,8 +62,8 @@
       "title": "One-Pan Lemon Garlic Salmon with ",
       "slug": "one-pan-lemon-garlic-salmon-with-asparagus",
       "image": {
-        "large": "./images/salmon-asparagus-large.webp",
-        "small": "./images/salmon-asparagus-small.webp"
+        "large": "/images/salmon-asparagus-large.webp",
+        "small": "/images/salmon-asparagus-small.webp"
       },
       "overview": "A 15-minute weeknight dinner of flaky salmon and tender asparagus.",
       "servings": 2,
@@ -90,8 +90,8 @@
       "title": "Quinoa Veggie Power Bowl",
       "slug": "quinoa-veggie-power-bowl",
       "image": {
-        "large": "./images/quinoa-veggie-bowl-large.webp",
-        "small": "./images/quinoa-veggie-bowl-small.webp"
+        "large": "/images/quinoa-veggie-bowl-large.webp",
+        "small": "/images/quinoa-veggie-bowl-small.webp"
       },
       "overview": "A balanced bowl of fluffy quinoa, roasted veggies and healthy fats.",
       "servings": 2,
@@ -120,8 +120,8 @@
       "title": "Sweet Potato Black Bean Tacos",
       "slug": "sweet-potato-black-bean-tacos",
       "image": {
-        "large": "./images/sweet-potato-tacos-large.webp",
-        "small": "./images/sweet-potato-tacos-small.webp"
+        "large": "/images/sweet-potato-tacos-large.webp",
+        "small": "/images/sweet-potato-tacos-small.webp"
       },
       "overview": "Smoky roasted sweet potatoes and black beans tucked into warm tortillas.",
       "servings": 3,
@@ -150,8 +150,8 @@
       "title": "Greek Yogurt Berry Parfait",
       "slug": "greek-yogurt-berry-parfait",
       "image": {
-        "large": "./images/greek-yogurt-large.webp",
-        "small": "./images/greek-yogurt-small.webp"
+        "large": "/images/greek-yogurt-large.webp",
+        "small": "/images/greek-yogurt-small.webp"
       },
       "overview": "Layers of creamy yogurt, fresh berries and crunchy oats for a high-protein snack.",
       "servings": 1,
@@ -175,8 +175,8 @@
       "title": "Lentil & Spinach Soup",
       "slug": "lentil-spinach-soup",
       "image": {
-        "large": "./images/lentil-soup-large.webp",
-        "small": "./images/lentil-soup-small.webp"
+        "large": "/images/lentil-soup-large.webp",
+        "small": "/images/lentil-soup-small.webp"
       },
       "overview": "A hearty 30-minute soup rich in plant protein and iron.",
       "servings": 4,
@@ -208,8 +208,8 @@
       "title": "Banana Oat Pancakes",
       "slug": "banana-oat-pancakes",
       "image": {
-        "large": "./images/banana-pancakes-large.webp",
-        "small": "./images/banana-pancakes-small.webp"
+        "large": "/images/banana-pancakes-large.webp",
+        "small": "/images/banana-pancakes-small.webp"
       },
       "overview": "Flour-free pancakes sweetened naturally with ripe bananas.",
       "servings": 2,
@@ -230,6 +230,64 @@
         "Cook 2-3 min each side until golden.",
         "Serve with fresh fruit."
       ]
+    },
+    {
+      "id": "a03e",
+      "title": "qdsqwdqwfasdfds",
+      "overview": "sdafdsafdsdgdfa",
+      "servings": "232",
+      "prepMinutes": "23",
+      "cookMinutes": "321",
+      "imageLarge": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "image": {
+        "large": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      }
+    },
+    {
+      "id": "c3e3",
+      "title": "wdwedwdqw",
+      "overview": "qwdqwdwwedewd",
+      "servings": "432",
+      "prepMinutes": "2",
+      "cookMinutes": "3",
+      "ingredients": [
+        "wweafffafafaewf,",
+        "ewfewfqaaaaaaaassdddddddddddddddd,",
+        "dweddeddddddddddddddddddddddd,",
+        "deeeeeeeeeeeeeeeeeeeeeeeee,"
+      ],
+      "instructions": [
+        "wweafffafafaewf,",
+        "ewfewfqaaaaaaaassdddddddddddddddd,",
+        "dweddeddddddddddddddddddddddd,",
+        "deeeeeeeeeeeeeeeeeeeeeeeee,"
+      ],
+      "imageLarge": "https://images.unsplash.com/photo-1565958011703-44f9829ba187?q=80&w=765&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "image": {
+        "large": "https://images.unsplash.com/photo-1565958011703-44f9829ba187?q=80&w=765&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      }
+    },
+    {
+      "id": "1484",
+      "title": "Italyaniski salat",
+      "overview": "italyaniski salat\n\n",
+      "servings": "1",
+      "prepMinutes": "8",
+      "cookMinutes": "9",
+      "imageLarge": "https://plus.unsplash.com/premium_photo-1698867575634-d39ef95fa6a7?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "ingredients": [
+        "sabsi,",
+        "tovuq gosht,",
+        "salat yog,"
+      ],
+      "instructions": [
+        "hammasi qovurib olinadi,",
+        "hammasini bita idishga solinib aralashtiriladi,",
+        "tabga qarab tuz va ziravorlar solinadi"
+      ],
+      "image": {
+        "large": "https://plus.unsplash.com/premium_photo-1698867575634-d39ef95fa6a7?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      }
     }
   ]
 }

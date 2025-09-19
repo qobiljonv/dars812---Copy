@@ -2,9 +2,33 @@ import PremTime from "./PremTime";
 import CookTime from "./CookTime";
 import { useRecipes } from "../hooks/useRecipe";
 import { Link } from "react-router-dom";
+import { useState } from "react";
+import CreateRecipe from "../components/CreateRecipe";
 
 function Recipes() {
   const recipes = useRecipes();
+
+  const [searchValue, setSearchValue] = useState("");
+
+  const filteredRecipes = recipes.filter(
+    (recipe) =>
+      recipe.title.toLowerCase().includes(searchValue.toLowerCase()) ||
+      recipe.overview.toLowerCase().includes(searchValue.toLowerCase())
+  );
+
+  const handleDelete = async (id) => {
+    if (!window.confirm("Rostdan ham o'chirmoqchimisiz?")) return;
+
+    try {
+      await fetch(`http://localhost:3000/recipes/${id}`, {
+        method: "DELETE",
+      });
+      alert("Recipe o'chirildi!");
+      window.location.reload();
+    } catch (err) {
+      console.error("Delete error:", err);
+    }
+  };
 
   return (
     <>
@@ -32,19 +56,21 @@ function Recipes() {
             <img
               className="search__icon"
               src="./images/icon-search.svg"
-              alt=""
+              alt="search icon"
             />
             <input
               type="text"
               className="search__input"
               placeholder="Search by name or ingredient..."
+              value={searchValue}
+              onChange={(e) => setSearchValue(e.target.value)}
             />
           </div>
         </div>
 
         <section className="foots">
           <ul className="foots__list">
-            {recipes.map((recipe) => (
+            {filteredRecipes.map((recipe) => (
               <li key={recipe.id} className="foots__item">
                 <img
                   src={recipe.image.large}
@@ -56,7 +82,7 @@ function Recipes() {
 
                 <div className="foots__box">
                   <div className="foots__content">
-                    <p className="foots__content-text">
+                    <p>
                       <img
                         src="./images/icon-servings.svg"
                         alt=""
@@ -84,13 +110,22 @@ function Recipes() {
                 </div>
 
                 <div className="foots__item-btn">
-                  <Link to="./recipe" className="item-btn">
+                  <Link to={`/recipes/${recipe.id}`} className="item-btn">
                     View Recipe
                   </Link>
+
+                  <button
+                    onClick={() => handleDelete(recipe.id)}
+                    className="delete-btn"
+                  >
+                    Delete
+                  </button>
                 </div>
               </li>
             ))}
           </ul>
+
+          <CreateRecipe />
         </section>
       </div>
     </>

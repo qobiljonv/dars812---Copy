@@ -2,8 +2,6 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { Home, About, Recipe, Recipes } from "./pages";
 import MainLayout from "./layouts/MainLayout";
 
-// import { action as HomeAction } from "./pages/Home";
-
 function App() {
   const routes = createBrowserRouter([
     {
@@ -13,7 +11,6 @@ function App() {
         {
           index: true,
           element: <Home />,
-          // action: HomeAction,
         },
         {
           path: "/about",
@@ -23,6 +20,7 @@ function App() {
           path: "/recipes",
           element: <Recipes />,
         },
+
         {
           path: "/recipes/:id",
           element: <Recipe />,
